@@ -15,29 +15,6 @@ function App() {
     const response = await fetch(url);
     return await response.json();
   }
-  // function addNewTransaction(ev) {
-  //   ev.preventDefault();
-  //   const url = "http://localhost:4000/api/transaction";
-  //   const price = name.split(" ")[0];
-    
-  //   fetch(url, {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/json" },
-  //     body: JSON.stringify({
-  //       price,
-  //       name: name.substring(price.length + 1),
-  //       description,
-  //       datetime,
-  //     }),
-  //   })
-  //     .then((response) => response.json())
-  //     .then((json) => {
-  //       setName("");
-  //       setDatetime("");
-  //       setDescription("");
-        
-  //     });
-  // }
   function addNewTransaction(ev) {
     ev.preventDefault();
   
